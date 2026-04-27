@@ -2,7 +2,7 @@ import { Image, SafeAreaView, StyleSheet, Text, View } from "react-native";
 
 const ProfileCard = () => {
   const biodata = {
-    nama: "Budi Setiawan",
+    nama: "Imron",
     usia: 22,
     TTL: "Bogor, 01 Jan 2000",
     gender: "MALE",
@@ -28,11 +28,6 @@ const ProfileCard = () => {
               <Text style={styles.value}>{value}</Text>
             </View>
           ))}
-
-          {/* <View style={[styles.inputDisabled, { marginTop: 10 }]}>
-            <Text style={styles.label}>STATUS</Text>
-            <Text style={styles.value}>Active User</Text>
-          </View> */}
         </View>
       </View>
     </SafeAreaView>
