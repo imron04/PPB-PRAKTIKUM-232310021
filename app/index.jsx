@@ -9,4 +9,4 @@
 
 // export { default } from "@/components/module-latihan/Praktikum3/index";
 
-export { default } from "@/components/module-latihan/latihan4/index";
+export { default } from "@/components/module-latihan/latihan5/praktikum";

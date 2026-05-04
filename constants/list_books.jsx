@@ -2,7 +2,7 @@ const ListBook = [
   {
     id: 1,
     title: "Halloween Candy",
-    img: require("../assets/books/buku.png"),
+    img: require("../assets/books/Halloween_candy.png"),
     author: "Giles Andreae",
     rating: 5,
     views: 100,
@@ -17,7 +17,7 @@ const ListBook = [
   {
     id: 2,
     title: "Tak Berharap Lagi",
-    img: require("../assets/books/buku.png"),
+    img: require("../assets/books/Raisa.jpg"),
     author: "Raisa",
     rating: 5,
     views: 999,
@@ -31,7 +31,7 @@ const ListBook = [
   {
     id: 3,
     title: "Hantu Durian Runtuh",
-    img: require("../assets/books/buku.png"),
+    img: require("../assets/books/Hantu_durian.png"),
     author: "Antoine de Saint-Exupery",
     rating: 3,
     views: 50,
@@ -45,7 +45,7 @@ const ListBook = [
   {
     id: 4,
     title: "HHikayat hang tuah",
-    img: require("../assets/books/buku.png"),
+    img: require("../assets/books/Hikayat_hang_tuah.png"),
     author: "Carol McCloud",
     rating: 5,
     views: 160,
@@ -59,7 +59,7 @@ const ListBook = [
   {
     id: 5,
     title: "Kisah Konyol Sampai Ngompol",
-    img: require("../assets/books/buku.png"),
+    img: require("../assets/books/Kisah_konyol.png"),
     author: "Jegung Wicaksono",
     rating: 4,
     views: 33,
@@ -73,7 +73,7 @@ const ListBook = [
   {
     id: 7,
     title: "Malin Kundang Anak Durhaka",
-    img: require("../assets/books/buku.png"),
+    img: require("../assets/books/Malin_kundang.png"),
     author: "R. J. Palacio",
     rating: 5,
     views: 230,

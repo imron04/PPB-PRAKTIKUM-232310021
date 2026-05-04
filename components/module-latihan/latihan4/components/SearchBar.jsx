@@ -1,7 +1,9 @@
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { TextInput, View } from "react-native";
 import { styles } from "../styles/StyleApps";
-const SearchBar = () => {
+
+// Terima props value dan onChangeText
+const SearchBar = ({ value, onChangeText }) => {
   return (
     <View style={styles.searchSection}>
       <Ionicons
@@ -15,6 +17,8 @@ const SearchBar = () => {
         style={styles.input}
         placeholder="Cari buku..."
         underlineColorAndroid="transparent"
+        value={value} // Sinkronisasi dengan state di parent
+        onChangeText={onChangeText} // Update state saat mengetik
       />
     </View>
   );
