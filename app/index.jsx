@@ -1,1 +1,5 @@
-export { default } from "@/components/quiz3";
+export { default } from "@/components/quiz";
+// import { Redirect } from "expo-router";
+// export default function Index() {
+//   return <Redirect href="/login" />;
+// }
